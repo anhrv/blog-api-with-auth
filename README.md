@@ -64,7 +64,7 @@ You can sort the blogs by a certain field. You can include only certain fields b
 To get one blog, specify the ID of the blog at the end of the URL.
 **/api/v1/blogs/_id_**
 
-### POST - Create new product
+### POST - Create new blog
 
 Send a POST request to **/api/v1/blogs** with the blog in the request body in JSON format:
 {
@@ -72,7 +72,7 @@ title,
 body
 }
 
-### PATCH - Update product
+### PATCH - Update blog
 
 You can only update the current user's blogs or if you are logged in as an admin.
 Send a PATCH request to **/api/v1/blogs/_id_** with the modified field in the request body in JSON format.
